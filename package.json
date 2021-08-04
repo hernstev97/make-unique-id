@@ -1,14 +1,13 @@
 {
-  "name": "ci-todo-ts",
+  "name": "uniqueid",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "description": "An easy way of getting unique IDs as a string for your project.",
   "scripts": {
     "test": "jest",
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Steven Hernandez",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
@@ -20,5 +19,17 @@
   },
   "dependencies": {
     "typescript": "^4.3.5"
-  }
+  },
+  "main": "dist/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernstev97/uniqueId.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hernstev97/uniqueId/issues"
+  },
+  "homepage": "https://github.com/hernstev97/uniqueId#readme"
 }

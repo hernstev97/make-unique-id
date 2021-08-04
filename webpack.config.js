@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     watchOptions: {
         ignored: /node_modules/,
     },
@@ -16,7 +16,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.ts'],
+        extensions: ['.ts', '.js'],
     },
     output: {
         filename: 'main.js',
