@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hernstev97/uniqueId.git"
+    "url": "git+https://github.com/hernstev97/make-unique-id.git"
   },
   "bugs": {
-    "url": "https://github.com/hernstev97/uniqueId/issues"
+    "url": "https://github.com/hernstev97/make-unique-id/issues"
   },
-  "homepage": "https://github.com/hernstev97/uniqueId#readme"
+  "homepage": "https://github.com/hernstev97/make-unique-id#readme"
 }
