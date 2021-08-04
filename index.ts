@@ -1,4 +1,4 @@
-export const getUniqueId = (): string => {
+export default function getUniqueId(): string {
     const alphabet: string[] = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     const randomNumber = Math.floor(floorRandomNumber(Math.random() * Date.now()));
     const randomNumberAsString = randomNumber.toString();
@@ -15,4 +15,4 @@ const floorRandomNumber = (factor: number): number => {
     return Math.floor(Math.random() * factor)
 }
 
-module.exports = getUniqueId;
+module.exports.getUniqueId = getUniqueId;
