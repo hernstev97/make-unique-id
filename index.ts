@@ -15,4 +15,4 @@ const floorRandomNumber = (factor: number): number => {
     return Math.floor(Math.random() * factor)
 }
 
-module.exports.getUniqueId = getUniqueId;
+module.exports.getUniqueId = getUniqueId();

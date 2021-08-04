@@ -2,8 +2,9 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
+    target: 'web',
     watchOptions: {
-        ignored: /node_modules/,
+        ignored: ['node_modules', 'test'],
     },
     entry: './index.ts',
     module: {
@@ -19,8 +20,11 @@ module.exports = {
         extensions: ['.ts', '.js'],
     },
     output: {
+        path: path.resolve(__dirname, './dist'),
         filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
-        clean: true
+        library: 'getUniqueId',
+        libraryTarget: 'umd',
+        globalObject: 'this',
+        umdNamedDefine: true,
     },
 };
