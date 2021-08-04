@@ -1,5 +1,5 @@
 {
-  "name": "uniqueid",
+  "name": "make-unique-id",
   "version": "1.0.0",
   "description": "An easy way of getting unique IDs as a string for your project.",
   "scripts": {
